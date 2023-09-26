@@ -1,0 +1,34 @@
+
+
+/* -----------------------
+--------------------------
+[master  Stylesheet ]
+
+*Author: Supazthemes / supazwebsolutions
+
+* VERSION: 1.00
+
+*Primary use:    Educational and business websites
+
+-------------------------
+----------------------- */
+
+
+@import 'parcials/variable';
+@import 'parcials/mixin';
+@import 'parcials/reset';
+
+// bootmixin
+@import 'parcials/bootmixin';
+
+
+// individual file here.
+
+@import 'parcials/button';
+@import 'parcials/header';
+@import 'parcials/page';
+
+// Media query
+
+@import 'parcials/mediaquery';
+@import 'parcials/retina';

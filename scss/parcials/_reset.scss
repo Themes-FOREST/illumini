@@ -1,0 +1,37 @@
+
+/* reset scss */
+
+* {
+	@include box-sizing (border-box);
+}
+[class*='supa-column-'] {
+	padding-right: 15px;
+	padding-left: 15px;
+	position: relative;
+	min-height: 1px;
+	float: left;
+}
+.supa-row {
+	@include clearfix();
+}
+a:hover{ text-decoration: none; }
+p{ line-height: 25px; }
+figure{ margin:0; padding: 0; }
+
+h1, h2, h3, h4, h5, h6{
+font-family: 'Titillium Web', sans-serif;
+
+}
+
+p{ font-size: 14px; }
+.margintop-small{ margin-top: 8%; }
+
+a:focus, a:hover{ outline: none; }
+.progress-bar.theme-bg{ background: $theme-color; }
+
+
+/*
+End Reset
+*/
+
+

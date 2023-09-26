@@ -1,0 +1,207 @@
+/*
+ Html header css here..
+ 
+*/
+.header-one {
+	.header-top-info-social {
+		background: $primary-bg;
+		min-height: 33px;
+		border-bottom: 1px solid $primary-border;
+
+		a {
+			color: $theme-color;
+		}
+		.phone-wrap {
+			line-height: 33px;
+			margin: 0;
+			padding: 0;
+			font-size: 12px;
+
+			span {
+				margin-right: 10px;
+			}
+		}
+		ul.social-media {
+			margin: 0;
+			padding: 0;
+
+			li {
+				border-left: 1px solid $primary-border;
+				border-right: none;
+				display: inline-block;
+				float: left;
+				padding: 2px 5px;
+				width: 36px;
+				height: 33px;
+				text-align: center;
+				line-height: 33px;
+
+				a {
+					color: $dim-text;
+				}
+				a:hover {
+					color: $theme-color;
+				}
+			}
+			li:last-child {
+				border-right: 1px solid $primary-border;
+			}
+		}
+	}
+	.header-menu-logo-info {
+		margin: 20px 0 30px;
+		background: $white-color;
+
+		.navbar-default .navbar-toggle {
+			border-color: transparent;
+			right: 0;
+			top: 10px;
+			margin-right: 0!important;
+			padding: 9px 0px;
+
+			&:hover {
+				background: transparent;
+			}
+			&:focus {
+				background: transparent;
+			}
+			.icon-bar {
+				background-color: $theme-color;
+			}
+		}
+		.logo {
+			h1 {
+				margin: 0;
+				padding: 0;
+				font-size: 25px;
+				margin-top: 8px;
+				font-weight: bold;
+				font-family: 'Droid Sans', sans-serif;
+
+				a {
+					color: $black-color;
+
+					span {
+						color: $theme-color;
+					}
+				}
+				span {
+					color: $theme-color;
+				}
+			}
+		}
+		.menu-and-info-wrap {
+			position: relative;
+			transition: all 0.6 ease-in-out 0s;
+		}
+		.edumain-nav {
+			background: transparent;
+			border: none;
+
+			ul li ul li {
+				border-bottom: 1px solid $theme-color;
+			}
+			ul li ul li:last-child {
+				border-bottom: 0;
+			}
+			ul li ul li a {
+				text-transform: capitalize;
+				line-height: 30px;
+			}
+			ul li a {
+				font-family: 'Titillium Web', sans-serif;
+				font-weight: bold;
+				font-size: 15px;
+				text-transform: uppercase;
+			}
+			ul li a:hover {
+				color: $theme-color;
+			}
+			ul li a.active {
+				color: $theme-color;
+				position: relative;
+			}
+			ul li a.active:after {
+				width: 40px;
+				height: 2px;
+				background: $theme-color;
+				bottom: 4px;
+				content: '';
+				left: 0;
+				right: 0;
+				margin: auto;
+				position: absolute;
+			}
+		}
+		.header-info {
+			background: $primary-bg;			/*border: 1px solid #d8d7da;*/
+			min-height: 50px;
+			padding: 9px 10px;
+			position: absolute;
+			left: 0;
+			right: 0;
+			z-index: 999;
+
+			a {
+				color: $theme-color;
+			}
+			.call-info span {
+				display: inline-block;
+				margin-right: 15px;
+				text-transform: uppercase;
+				font-weight: bold;
+				font-size: 16px;
+				font-family: 'Titillium Web', sans-serif;
+
+				i {
+					color: $theme-color;
+				}
+				a {
+					color: $black-color;
+				}
+				a:hover {
+					color: $theme-color;
+				}
+			}
+			.call-info span small {
+				font-size: 13px;
+				color: #777;
+				font-weight: normal;
+			}
+			.call-info {
+				text-align: center;
+			}
+			.call-info i {
+				font-size: 30px;
+			}
+		}
+	}
+	.header-menu-logo-info.fixed-header {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		left: 0;
+		right: 0;
+		background: $white-color;
+		transform: translateY(0);
+		z-index: 999;
+		margin: 0;
+		box-shadow: 1px 2px 4px $dim-text;
+
+		.edumain-nav {
+			margin: 10px 0;
+		}
+		.header-info {
+			display: none;
+		}
+		.logo
+
+		img {
+			margin: 15px 0;
+		}
+		.logo h1 {
+			font-family: 'Droid Sans', sans-serif;
+			margin-top: 20px;
+		}
+	}
+}

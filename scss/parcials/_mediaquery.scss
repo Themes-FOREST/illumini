@@ -1,0 +1,419 @@
+$break-xl: 1400px;
+$break-lg: 1200px;
+$break-md: 992px;
+$break-sm: 768px;
+$break-ip: 640px;
+$break-xs: 480px;
+
+@mixin breakpoint($point) {
+  @if $point==xldesktop {
+    @media (max-width:$break-xl) {
+      @content;
+    }
+  }
+  @else if $point==lgdesktop {
+    @media (max-width:$break-lg) {
+      @content;
+    }
+  }
+  @else if $point==desktop {
+    @media (max-width:$break-md) {
+      @content;
+    }
+  }
+  @else if $point==tablet {
+    @media (max-width:$break-sm) {
+      @content;
+    }
+  }
+  @else if $point==iphone {
+    @media (max-width:$break-ip) {
+      @content;
+    }
+  }
+  @else if $point==mobile {
+    @media (max-width:$break-xs) {
+      @content;
+    }
+  }
+}
+.supa-column-1 {
+  @include breakpoint(xldesktop) {
+    width: 100%
+  }
+  @include breakpoint(lgdesktop) {
+    width: 100%
+  }
+  @include breakpoint(desktop) {
+    width: 100%
+  }
+  @include breakpoint(tablet) {
+    width: 50%
+  }
+  @include breakpoint(mobile) {
+    width: 100%
+  }
+}
+.supa-column-2 {
+  @include breakpoint(xldesktop) {
+    width: 50%
+  }
+  @include breakpoint(lgdesktop) {
+    width: 50%
+  }
+  @include breakpoint(desktop) {
+    width: 50%
+  }
+  @include breakpoint(tablet) {
+    width: 50%
+  }
+  @include breakpoint(mobile) {
+    width: 100%
+  }
+}
+.supa-column-3 {
+  @include breakpoint(xldesktop) {
+    width: 33.33333%
+  }
+  @include breakpoint(lgdesktop) {
+    width: 33.33333%
+  }
+  @include breakpoint(desktop) {
+    width: 33.33333%
+  }
+  @include breakpoint(tablet) {
+    width: 50%
+  }
+  @include breakpoint(mobile) {
+    width: 100%
+  }
+}
+.supa-column-4 {
+  @include breakpoint(xldesktop) {
+    width: 25%
+  }
+  @include breakpoint(lgdesktop) {
+    width: 25%
+  }
+  @include breakpoint(desktop) {
+    width: 25%
+  }
+  @include breakpoint(tablet) {
+    width: 50%
+  }
+  @include breakpoint(mobile) {
+    width: 100%
+  }
+}
+.supa-column-5 {
+  @include breakpoint(xldesktop) {
+    width: 20%
+  }
+  @include breakpoint(lgdesktop) {
+    width: 20%
+  }
+  @include breakpoint(desktop) {
+    width: 20%
+  }
+  @include breakpoint(tablet) {
+    width: 50%
+  }
+  @include breakpoint(mobile) {
+    width: 100%
+  }
+}
+.supa-column-6 {
+  @include breakpoint(xldesktop) {
+    width: 16.66667%
+  }
+  @include breakpoint(lgdesktop) {
+    width: 16.66667%
+  }
+  @include breakpoint(desktop) {
+    width: 16.66667%
+  }
+  @include breakpoint(tablet) {
+    width: 50%
+  }
+  @include breakpoint(mobile) {
+    width: 100%
+  }
+}
+.supa-column-7 {
+  @include breakpoint(xldesktop) {
+    width: 14.28571%
+  }
+  @include breakpoint(lgdesktop) {
+    width: 14.28571%
+  }
+  @include breakpoint(desktop) {
+    width: 14.28571%
+  }
+  @include breakpoint(tablet) {
+    width: 50%
+  }
+  @include breakpoint(mobile) {
+    width: 100%
+  }
+}
+.supa-column-8 {
+  @include breakpoint(xldesktop) {
+    width: 12.5%
+  }
+  @include breakpoint(lgdesktop) {
+    width: 12.5%
+  }
+  @include breakpoint(desktop) {
+    width: 12.5%
+  }
+  @include breakpoint(tablet) {
+    width: 50%
+  }
+  @include breakpoint(mobile) {
+    width: 100%
+  }
+}
+.supa-column-9 {
+  @include breakpoint(xldesktop) {
+    width: 11.11111%
+  }
+  @include breakpoint(lgdesktop) {
+    width: 11.11111%
+  }
+  @include breakpoint(desktop) {
+    width: 11.11111%
+  }
+  @include breakpoint(tablet) {
+    width: 50%
+  }
+  @include breakpoint(mobile) {
+    width: 100%
+  }
+}
+.supa-column-10 {
+  @include breakpoint(xldesktop) {
+    width: 10%
+  }
+  @include breakpoint(lgdesktop) {
+    width: 10%
+  }
+  @include breakpoint(desktop) {
+    width: 10%
+  }
+  @include breakpoint(tablet) {
+    width: 50%
+  }
+  @include breakpoint(mobile) {
+    width: 100%
+  }
+}
+.supa-column-11 {
+  @include breakpoint(xldesktop) {
+    width: 9.09091%
+  }
+  @include breakpoint(lgdesktop) {
+    width: 9.09091%
+  }
+  @include breakpoint(desktop) {
+    width: 9.09091%
+  }
+  @include breakpoint(tablet) {
+    width: 50%
+  }
+  @include breakpoint(mobile) {
+    width: 100%
+  }
+}
+.supa-column-12 {
+  @include breakpoint(xldesktop) {
+    width: 8.33333%
+  }
+  @include breakpoint(lgdesktop) {
+    width: 8.33333%
+  }
+  @include breakpoint(desktop) {
+    width: 8.33333%
+  }
+  @include breakpoint(tablet) {
+    width: 50%
+  }
+  @include breakpoint(mobile) {
+    width: 100%
+  }
+}
+.header-one .header-info .call-info {
+  @include breakpoint(tablet) {
+    margin-bottom: 25px;
+  }
+}
+.main-feature-wrap {
+  .feature-single {
+    @include breakpoint(tablet) {
+      margin-bottom: 50px;
+    }
+  }
+}
+.header-one .header-menu-logo-info .header-info {
+  @include breakpoint(tablet) {
+    display: none;
+  }
+}
+.our-gallery-wrap {
+  .gallery-single {
+    position: relative;
+
+    figure {
+      @include breakpoint(tablet) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+.news-section-wrap .news-listing ul li .news-left-image-wrap, .news-section-wrap .news-listing ul li .news-right-cont-wrap {
+  @include breakpoint(tablet) {
+    width: 100%;
+    display: block;
+    clear: both;
+  }
+}
+.testimonial-wrap {
+  @include breakpoint(tablet) {
+    padding-top: 50px;
+  }
+}
+.header-one .header-menu-logo-info .logo {
+  @include breakpoint(tablet) {
+    position: absolute;
+    top: 10px;
+  }
+}
+.header-one .header-menu-logo-info.fixed-header .logo {
+  @include breakpoint(tablet) {
+    top: 0px;
+  }
+}
+.header-one .header-menu-logo-info.fixed-header .navbar-default .navbar-toggle {
+  @include breakpoint(tablet) {
+    top: 0px;
+    margin-right: 0;
+    padding: 9px 0px;
+  }
+}
+@include breakpoint(tablet) {
+  .dropdown-menu {
+    width: 100%;
+    display: block;
+    border-color: transparent;
+  }
+  p {
+    font-size: 13px;
+  }
+  .all-heading {
+    hgroup {
+      h2 {
+        font-size: 20px;
+      }
+      h3 {
+        font-size: 25px;
+      }
+    }
+    .st-section-head {
+      h2 {
+        font-size: 20px;
+      }
+      h3 {
+        font-size: 25px;
+      }
+    }
+  }
+  .related-heading h3 {
+    font-size: 20px;
+  }
+  .inner-heading h3 {
+    font-size: 20px;
+  }
+  .counter-section-wrap .counter-single .counter-text {
+    font-size: 14px;
+  }
+  .counter-section-wrap .counter-single .counter {
+    font-size: 20px;
+  }
+  .pricing-message-wrap .price-plan-wrap .price-content h2 {
+    font-size: 25px;
+  }
+  .footer-wrap .about-footer h3.footer-logo {
+    font-size: 22px;
+  }
+  .inner-page-content-wrap .our-blog-inner-wrap .blog-content-wrap .blog-single-wrap .blog-post-content h2 {
+    font-size: 20px;
+  }
+  .inner-page-content-wrap .our-blog-inner-wrap .blog-content-wrap .panel .blog-post-content h2 {
+    font-size: 20px;
+  }
+  .header-one .header-menu-logo-info .edumain-nav ul li a {
+    font-size: 14px;
+  }
+  .banner-wrap .vdo-banner .banner-center h2 {
+    font-size: 25px;
+  }
+  .news-updates .news-update-text {
+    font-size: 25px;
+    text-align: center;
+  }
+  .news-updates .update-text-content {
+    text-align: center;
+    padding: 3px 0 14px !important
+  }
+  .call-to-action-wrap .call-content-wrap h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .footer-wrap .about-footer p span {
+    font-size: 17px;
+  }
+  .inner-page-content-wrap .inner-heading h2 {
+    font-size: 25px;
+  }
+  .sidebar-wrap .sidebar-category ul.cat-listing li {
+    font-size: 13px;
+  }
+  .sidebar-wrap .sidebar-tag .tag-content a {
+    font-size: 13px;
+  }
+  .footer-wrap .footer-contact-info .phone, .footer-wrap .footer-contact-info .address, .footer-wrap .footer-contact-info .email {
+    font-size: 14px;
+  }
+}
+@include breakpoint(mobile) {
+  .single-team-wrap {
+    .left-image {
+      width: 100%;
+      display: block;
+      clear: both;
+    }
+    .profile-desc-caption {
+      margin-top: 20px;
+      width: 100%;
+      display: block;
+      clear: both;
+    }
+  }
+}
+@include breakpoint(iphone) {
+  .principle-message-wrap {
+    .principle-image {
+      display: block;
+      clear: both;
+      width: 100%;
+      padding: 0;
+    }
+    .message-content-wrap {
+      display: block;
+      clear: both;
+      width: 100%;
+      padding: 0;
+      padding: 0;
+      margin-top: 20px;
+    }
+  }
+}

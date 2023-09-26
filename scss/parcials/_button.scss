@@ -1,0 +1,24 @@
+/*
+ Button 
+ 
+*/
+
+@mixin button-bg($bg) {
+  background: $bg;
+  color:#fff;
+  @include border-radius($default-border-radius);
+  
+  &:hover {
+    background:darken($bg,8%);
+    transition: all 0.3s ease;
+    color:#fff;
+  }
+  &:active {
+    background:darken($bg,0%);
+    color:#fff;
+  } 
+  &:focus {
+    background:darken($bg,0%);
+    color:#fff;
+  } 
+}

@@ -1,0 +1,79 @@
+
+<p>
+illume is a clean, mordern, html5 single page web template. This template is designed for educational or business  purpose websites.
+it's built on bootstrap and sass style. We have displayed some color variation, 
+You can make unlimited color variation according to your choice only change by "$theme-color" in variable scss file with sass.
+It is easy to use and customize for your next business website. 
+<p>
+
+
+<h3>  Web feature.  </h3>
+
+<ul>
+<li> Build on bootstrap </li>
+<li> Sass  style for reuse code , color variation and more... </li>
+<li> Fully responsive</li>
+<li> Css3 animation</li>
+<li> Gallery with popup</li>
+<li> Video banner</li>
+<li> Contact form and Google map to reach the company location with more convenience</li>
+<li> Popup video with model for activities</li>
+<li> Two home page variation</li>
+<li> Single team page with skill progress bar</li>
+<li> Beautiful blog page and blog single page</li>
+<li> Different type of icon fonts fontawesome and Google  material design fonts</li>
+<li> Cross browser compatible – latest IE, Chrome, Firefox, Safari, Opera </li>
+<li> w3c  validation </li>
+</ul>
+
+
+<h3> Other credits </h3>
+
+<h3> Css </h3>
+<ul>
+<li> Bootstrap css </li>
+<li> Animate css <li>
+</ul>
+
+<h3> Google and icon fonts</h3>
+
+
+<ul>
+<li> Font Awesome </li>
+<li> Google material icon font </li>
+<li> Google font Titillium+Web and raleway</li>
+</ul>
+
+
+<h3> Images </h3>
+<ul>
+<li> Unsplash </li>
+<li> pixabay </li>
+</ul>
+
+<h3> Js Scripts </h3>
+
+<ul>
+<li>  Jquery </li>
+<li> Bootstrap </li>
+<li> Owl carousel </li>
+<li> Waypoint + counterup </li>
+<li> Jquery.vide </li>
+<li> Jquery.magnific-popup.min </li>
+<li> Masonry </li>
+<li> Imageloded </li>
+<li> Smooth scroll </li>
+<li> Maps.google apijs </li>
+
+</ul>
+
+<h2> Updates </h2>
+
+<pre> 
+ version 1.0 
+-First release
+</pre>
+
+Note: All images are use for demo purpose so  there is not included image in main zip file.
+
+
